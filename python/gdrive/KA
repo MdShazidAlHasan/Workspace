@@ -1,0 +1,507 @@
+﻿<!DOCTYPE html>
+<html translate="no">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <title>ঢাকা বিশ্ববিদ্যালয়: স্নাতকপূর্ব ভর্তি</title>
+    <!-- Favicon-->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+    <!-- Bootstrap Core Css -->
+	    <link href="https://adma394c127769905e430433c93686fab3a.eis.du.ac.bd/plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
+	    <link href="https://adma394c127769905e430433c93686fab3a.eis.du.ac.bd/plugins/font-bangla/css/solaimanLipi.css" rel="stylesheet">
+	    <link href="https://adma394c127769905e430433c93686fab3a.eis.du.ac.bd/plugins/bootstrap-select/css/bootstrap-select.css" rel="stylesheet">
+	        <!-- Waves Effect Css -->
+	        <link href="https://adma394c127769905e430433c93686fab3a.eis.du.ac.bd/plugins/node-waves/waves.css" rel="stylesheet" />
+	            
+	            <!-- Animation Css -->
+	            <link href="https://adma394c127769905e430433c93686fab3a.eis.du.ac.bd/plugins/animate-css/animate.css" rel="stylesheet" />
+	                
+	                <link href="https://adma394c127769905e430433c93686fab3a.eis.du.ac.bd/css/flag-icon.css" rel="stylesheet">
+	                    
+	                    <!-- Morris Chart Css-->
+	                    <link href="https://adma394c127769905e430433c93686fab3a.eis.du.ac.bd/plugins/morrisjs/morris.css" rel="stylesheet" />
+	                    
+	                    <!-- Custom Css -->
+	                    <link href="https://adma394c127769905e430433c93686fab3a.eis.du.ac.bd/css/style.css" rel="stylesheet">
+	                    
+	                    <!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
+	                    <link href="https://adma394c127769905e430433c93686fab3a.eis.du.ac.bd/css/themes/theme-indigo.css" rel="stylesheet" />
+	             
+</head>
+
+<body class="theme-indigo">
+    <!-- Page Loader -->
+    <div class="page-loader-wrapper">
+        <div class="loader">
+            <div class="preloader">
+                <div class="spinner-layer pl-red">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+            <p>Please wait...</p>
+        </div>
+    </div>
+    <!-- #END# Page Loader -->
+    <!-- Overlay For Sidebars -->
+    <div class="overlay"></div>
+    <!-- #END# Overlay For Sidebars -->
+    <!-- Search Bar -->
+    <div class="search-bar">
+        <div class="search-icon">
+            <i class="material-icons">search</i>
+        </div>
+        <input type="text" placeholder="START TYPING...">
+        <div class="close-search">
+            <i class="material-icons">close</i>
+        </div>
+    </div>
+    <!-- #END# Search Bar -->
+    <!-- Top Bar -->
+		
+	    <div class="modal fade" id="contactmodal" tabindex="-1">
+	        <div class="modal-dialog" role="document">
+	            <div class="modal-content" style="border-radius: 5px">
+	    		
+	                
+		<div class="modal-header text-center" style="background-color: #ff3355; color: white; border-radius:5px 5px 0 0; padding-left:37px">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+            <span class="material-icons" style="font-size: 60px;">contact_phone</span>
+        </div>
+	                		
+	               
+					<div style="padding: 20px 0 0 0;">
+					<div class="row">
+						<div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+							<div class="card">
+								<div class="body bg-blue-grey">
+									<h4>সাধারণ হেল্প ডেস্ক</h4>
+									<div>
+										<ul style="list-style-type:square">
+											<li>আসন ব্যবস্থা </li>
+											<li>লগইন ও  রেজিস্ট্রেশন সমস্যা</li>
+											<li>ছবি ও কোটা সংক্রান্ত</li>
+											<li>যে কোন কারিগরি সমস্যায় (পেমেন্ট, এস এম এস, ওয়েব পেজ ইত্যাদি) </li>
+										</ul>
+									</div>
+									<h6>যোগাযোগ</h6>
+									<div>
+										<ul style="list-style-type:square">
+											<li>ফোনঃ (০২)-৫৫১৬৭৭২৪, ০১৯৯৩৯৯২১৪৯, ০১৮২২১৩৭৬০১, ০১৬৩১৯৫৩৮৪৩, ০১৭৪৩০৪২৮৬৪, ০৯৬৬৬৯১১৪৬৩ এক্সট. ৪০৫২</li>
+											<li>ঠিকানাঃ কেন্দ্রীয় ভর্তি অফিস, কক্ষ নং - ২১৪, প্রশাসনিক ভবন, ঢাকা বিশ্ববিদ্যালয়</li>
+											<li>ই-মেইলঃ helpline@eis.du.ac.bd</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 col-sm-6 col-lg-6 col-xs-12">
+							<div class="card">
+								<div class="body bg-blue-grey">
+									<h4>ক ইউনিট</h4>
+									<div>
+										<ul style="list-style-type:square">
+											<li>ভর্তি  যোগ্যতা</li>
+											<li>সমতা নিরুপন</li>
+											<li>পরীক্ষা সংক্রান্ত নিয়মাবলী </li>
+											<li>ফলাফল সংক্রান্ত সমস্যায়</li>
+										</ul>
+									</div>
+									<h6>যোগাযোগ</h6>
+									<div>
+										<ul style="list-style-type:square">
+											<li>ফোনঃ ০৯৬৬৬৯১১৪৬৩ এক্সট. ৪৩৬৩-৬৪</li>
+											<li>মোবাঃ +৮৮০১৮৭০০৩৩৯৪৫</li>
+											<li>ঠিকানাঃ ডিন অফিস, ফার্মেসি অনুষদ, ঢাকা বিশ্ববিদ্যালয়</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-6 col-lg-6 col-xs-12">
+							<div class="card">
+								<div class="body bg-blue-grey">
+									<h4>খ ইউনিট</h4>
+									<div>
+										<ul style="list-style-type:square">
+											<li>ভর্তি  যোগ্যতা</li>
+											<li>সমতা নিরুপন</li>
+											<li>পরীক্ষা সংক্রান্ত নিয়মাবলী </li>
+											<li>ফলাফল সংক্রান্ত সমস্যায়</li>
+										</ul>
+									</div>
+									<h6>যোগাযোগ</h6>
+									<div>
+										<ul style="list-style-type:square">
+											<li>ফোনঃ ০৯৬৬৬৯১১৪৬৩ এক্সট. ৪৩৪৩</li>
+											<li>ঠিকানাঃ ডিন অফিস, কলা অনুষদ, ঢাকা বিশ্ববিদ্যালয়</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 col-sm-6 col-lg-6 col-xs-12">
+							<div class="card">
+								<div class="body bg-blue-grey">
+									<h4>গ ইউনিট</h4>
+									<div>
+										<ul style="list-style-type:square">
+											<li>ভর্তি  যোগ্যতা</li>
+											<li>সমতা নিরুপন</li>
+											<li>পরীক্ষা সংক্রান্ত নিয়মাবলী </li>
+											<li>ফলাফল সংক্রান্ত সমস্যায়</li>
+										</ul>
+									</div>
+									<h6>যোগাযোগ</h6>
+									<div>
+										<ul style="list-style-type:square">
+											<li>ফোনঃ ০৯৬৬৬৯১১৪৬৩ এক্সট. ৪৩৬০</li>
+											<li>ঠিকানাঃ ডিন অফিস, বিজনেস স্টাডিজ অনুষদ,  ঢাকা বিশ্ববিদ্যালয়</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-6 col-lg-6 col-xs-12">
+							<div class="card">
+								<div class="body bg-blue-grey">
+									<h4>ঘ ইউনিট</h4>
+									<div>
+										<ul style="list-style-type:square">
+											<li>ভর্তি  যোগ্যতা</li>
+											<li>সমতা নিরুপন</li>
+											<li>পরীক্ষা সংক্রান্ত নিয়মাবলী </li>
+											<li>ফলাফল সংক্রান্ত সমস্যায়</li>
+										</ul>
+									</div>
+									<h6>যোগাযোগ</h6>
+									<div>
+										<ul style="list-style-type:square">
+											<li>ফোনঃ ০৯৬৬৬৯১১৪৬৩ এক্সট. ৪৩৫৩</li>
+											<li>ঠিকানাঃ ডিন অফিস, সামাজিক বিজ্ঞান অনুষদ, ঢাকা বিশ্ববিদ্যালয়</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 col-sm-6 col-lg-6 col-xs-12">
+							<div class="card">
+								<div class="body bg-blue-grey">
+									<h4>চ ইউনিট</h4>
+									<div>
+										<ul style="list-style-type:square">
+											<li>ভর্তি  যোগ্যতা</li>
+											<li>সমতা নিরুপন</li>
+											<li>পরীক্ষা সংক্রান্ত নিয়মাবলী </li>
+											<li>ফলাফল সংক্রান্ত সমস্যায়</li>
+										</ul>
+									</div>
+									<h6>যোগাযোগ</h6>
+									<div>
+										<ul style="list-style-type:square">
+											<li>ফোনঃ ০৯৬৬৬৯১১৪৬৩ এক্সট. ৮৫৭১</li>
+											<li>ঠিকানাঃ ডিন অফিস, চারুকলা অনুষদ, ঢাকা বিশ্ববিদ্যালয়</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-6 col-lg-6 col-xs-12">
+							<div class="card">
+								<div class="body bg-blue-grey">
+									<h4>আই বি এ</h4>
+									<div>
+										<ul style="list-style-type:square">
+											<li>ভর্তি  যোগ্যতা</li>
+											<li>সমতা নিরুপন</li>
+											<li>পরীক্ষা সংক্রান্ত নিয়মাবলী </li>
+											<li>ফলাফল সংক্রান্ত সমস্যায়</li>
+										</ul>
+									</div>
+									<h6>যোগাযোগ</h6>
+									<div>
+										<ul style="list-style-type:square">
+											<li>ফোনঃ (০২)-৯৬৭৩৩৮৭ এক্সট. ৮৩৩৫</li>
+											<li>ঠিকানাঃ ব্যবসায় প্রশাসন ইনস্টিটিউট, ঢাকা বিশ্ববিদ্যালয়</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+	            </div>
+	        </div>
+	    </div>
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="javascript:void(0);" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false"></a>
+                <a href="javascript:void(0);" class="bars"></a>                
+<a class="navbar-brand" href="https://adma394c127769905e430433c93686fab3a.eis.du.ac.bd">স্নাতকপূর্ব ভর্তি আবেদন, ঢাকা বিশ্ববিদ্যালয়</a>            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- Call Search -->
+                    <li><a href="javascript:void(0);" class="js-search" data-close="true"><i class="material-icons">search</i></a></li>
+                    <!-- #END# Call Search -->
+                    <!-- Language -->                    <li class="dropdown">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button">                            <span class="flag-icon flag-icon-bd"></span><span>&nbsp;বাংলা</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="header">Language</li>
+                            <li class="body">
+                                <ul class="menu">
+	        <li>
+	        <a href="https://adma394c127769905e430433c93686fab3a.eis.du.ac.bd/bn/asd46fg7897ujr9u87it6jdgs4dbavd3549ewht87q465b4987n/1721158614_1/KA">
+	        <div>
+	        <span class="flag-icon flag-icon-bd"></span><span>&nbsp;বাংলা</span>
+	        </div>
+	        </a>
+	        </li>
+	        <li>
+	        <a href="https://adma394c127769905e430433c93686fab3a.eis.du.ac.bd/en/asd46fg7897ujr9u87it6jdgs4dbavd3549ewht87q465b4987n/1721158614_1/KA">
+	        <div>
+	        <span class="flag-icon flag-icon-gb"></span><span>&nbsp;English</span>
+	        </div>
+	        </a>
+	        </li>                                 </ul>
+                            </li>
+                        </ul>
+                    <!-- #END# Language -->
+                    <!-- Notifications -->
+                    <li class="dropdown">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                            <span id="contactlist"><i class="material-icons">phone</i></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- #Top Bar -->    <section>
+        <!-- Left Sidebar -->
+        <aside id="leftsidebar" class="sidebar">
+            <!-- User Info -->
+            <div class="user-info">
+                <div class="image" style="display:flex; justify-content:center">            <img src="https://adma394c127769905e430433c93686fab3a.eis.du.ac.bd/images/dulogo/dulogo.png" width="50" height="64" alt="User" />                </div>
+                <div class="info-container">
+	        <script>
+	            function goToLogout() {
+	                location.href = "https://adma394c127769905e430433c93686fab3a.eis.du.ac.bd/bn/2f8639feef43f2964be0cee184dad78c";
+	            }
+	        </script>
+	        <div><button type="button" onclick="goToLogout();" class="btn btn-block bg-red">LOGOUT</button></div></div>                                <div class="btn-group user-helper-dropdown">
+                        
+                        <ul class="dropdown-menu pull-right">
+                            
+                            <li><a href="https://adma394c127769905e430433c93686fab3a.eis.du.ac.bd/bn/2f8639feef43f2964be0cee184dad78c"><i class="material-icons">input</i>Log Out</a></li>
+                        </ul>
+                    </div>                </div>
+            </div>
+            <!-- #User Info -->            <div class="menu">
+                <ul class="list">
+                    <li class="header" style="text-align:center">Md. Shazid Al Hasan</li>
+
+                    <li><a href="javascript:void(0);" class="menu-toggle"><i class="material-icons">playlist_play</i><span>নোটিশ সমূহ</span></a>
+                    <ul class="ml-menu">
+                        <li><a href="https://adma394c127769905e430433c93686fab3a.eis.du.ac.bd/bn/gf6s7h89rthg463786e4q6a3b679w6jrn46a/1721158614_1/KA" target="_blank"><i class="material-icons">assignment</i><span>সাধারণ নোটিশ</span></a></li>
+                        <li><a href="https://adma394c127769905e430433c93686fab3a.eis.du.ac.bd/bn/b45de047fde97gsg488cadae3cfe8e88dc01/1721158614_1/KA" target="_blank"><i class="material-icons">assignment</i><span>ক ইউনিট নোটিশ </span></a></li>
+                        <li><a href="https://adma394c127769905e430433c93686fab3a.eis.du.ac.bd/bn/b45de047fde9788c53fradae3cfe8e88dc02/1721158614_1/KA" target="_blank"><i class="material-icons">assignment</i><span>খ ইউনিট নোটিশ</span></a></li>
+                        <li><a href="https://adma394c127769905e430433c93686fab3a.eis.du.ac.bd/bn/b45de047fde9788cad5h6esae3cfe8e88dc03/1721158614_1/KA" target="_blank"><i class="material-icons">assignment</i><span>গ ইউনিট নোটিশ</span></a></li>
+                        <li><a href="https://adma394c127769905e430433c93686fab3a.eis.du.ac.bd/bn/b45de047fde9788ghk566cadae3cfe8e88dc04/1721158614_1/KA" target="_blank"><i class="material-icons">assignment</i><span>ঘ ইউনিট নোটিশ</span></a></li>
+                        <li><a href="https://adma394c127769905e430433c93686fab3a.eis.du.ac.bd/bn/b45de047fde97fsgfg8cadaghge3cfe8e88dc05/1721158614_1/KA" target="_blank"><i class="material-icons">assignment</i><span>চ ইউনিট নোটিশ</span></a></li>
+                        <li><a href="https://adma394c127769905e430433c93686fab3a.eis.du.ac.bd/bn/b45de047fde973543hj88ae3cfe8e88dc06/1721158614_1/KA" target="_blank"><i class="material-icons">assignment</i><span>আই বি এ নোটিশ</span></a></li>
+                    </ul>
+                    <li><a href="https://adma394c127769905e430433c93686fab3a.eis.du.ac.bd/bn/372beb769e269152b8f976bf6d23491b333cfcd4f5ea2d35f174d8c33eb38f7d5fbd3201f584aca0ea687eb8a978a9c782c82dee12db758b8113a4ac7e10a2e4/1721158614_1/KA"><i class="material-icons">play_circle_outline</i><span>সমমান লগইন</span></a></li>
+                    <li><a href="https://adma394c127769905e430433c93686fab3a.eis.du.ac.bd/bn/as6g7698st7hry86t768kd4jy65n4s6b5sg68s7ry6j43b7t9js7h6t5/1721158614_1/KA"><i class="material-icons">play_circle_outline</i><span>সমমান ড্যাশবোর্ড</span></a></li>
+                    <li><a href="https://adma394c127769905e430433c93686fab3a.eis.du.ac.bd/bn/d9d5fc559ee65112f46a1d15cadfe8128aff82c771ca0432bc39f6ee8daf2e90/1721158614_1/KA"><i class="material-icons">dashboard</i><span>ছাত্র/ছাত্রীর  ড্যাশবোর্ড</span></a></li>
+                    <li><a href="https://adma394c127769905e430433c93686fab3a.eis.du.ac.bd/bn/g7s9d8hg7f9h46hn4654m6rkj67wa41324h68h7ye68jt7y64sbgad346hy87h6/1721158614_1/KA"><i class="material-icons">payment</i><span>আবেদন ফি</span></a></li>
+                </ul>
+            </div>
+            <!-- #Menu -->
+
+            <!-- Footer -->
+            <div class="legal">
+                <div class="copyright">
+                    &copy; 2010 - 21 <a href="javascript:void(0);">Central Admission Office</a>.
+                </div>
+                <div class="version">
+                    <a href="https://www.du.ac.bd">University of Dhaka</a>
+                </div>
+            </div>
+            <!-- #Footer -->
+        </aside>
+        <!-- #END# Left Sidebar -->
+        <!-- Right Sidebar -->
+        <aside id="rightsidebar" class="right-sidebar">
+            <ul class="nav nav-tabs tab-nav-right" role="tablist">
+                <li role="presentation" class="active"><a href="#skins" data-toggle="tab">SKINS</a></li>
+                <li role="presentation"><a href="#settings" data-toggle="tab">SETTINGS</a></li>
+            </ul>
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane fade in active in active" id="skins">
+                    <ul class="demo-choose-skin">
+                        <li data-theme="red" class="active">
+                            <div class="red"></div>
+                            <span>Red</span>
+                        </li>
+                        <li data-theme="pink">
+                            <div class="pink"></div>
+                            <span>Pink</span>
+                        </li>
+                        <li data-theme="purple">
+                            <div class="purple"></div>
+                            <span>Purple</span>
+                        </li>
+                        <li data-theme="deep-purple">
+                            <div class="deep-purple"></div>
+                            <span>Deep Purple</span>
+                        </li>
+                        <li data-theme="indigo">
+                            <div class="indigo"></div>
+                            <span>Indigo</span>
+                        </li>
+                        <li data-theme="blue">
+                            <div class="blue"></div>
+                            <span>Blue</span>
+                        </li>
+                        <li data-theme="light-blue">
+                            <div class="light-blue"></div>
+                            <span>Light Blue</span>
+                        </li>
+                        <li data-theme="cyan">
+                            <div class="cyan"></div>
+                            <span>Cyan</span>
+                        </li>
+                        <li data-theme="teal">
+                            <div class="teal"></div>
+                            <span>Teal</span>
+                        </li>
+                        <li data-theme="green">
+                            <div class="green"></div>
+                            <span>Green</span>
+                        </li>
+                        <li data-theme="light-green">
+                            <div class="light-green"></div>
+                            <span>Light Green</span>
+                        </li>
+                        <li data-theme="lime">
+                            <div class="lime"></div>
+                            <span>Lime</span>
+                        </li>
+                        <li data-theme="yellow">
+                            <div class="yellow"></div>
+                            <span>Yellow</span>
+                        </li>
+                        <li data-theme="amber">
+                            <div class="amber"></div>
+                            <span>Amber</span>
+                        </li>
+                        <li data-theme="orange">
+                            <div class="orange"></div>
+                            <span>Orange</span>
+                        </li>
+                        <li data-theme="deep-orange">
+                            <div class="deep-orange"></div>
+                            <span>Deep Orange</span>
+                        </li>
+                        <li data-theme="brown">
+                            <div class="brown"></div>
+                            <span>Brown</span>
+                        </li>
+                        <li data-theme="grey">
+                            <div class="grey"></div>
+                            <span>Grey</span>
+                        </li>
+                        <li data-theme="blue-grey">
+                            <div class="blue-grey"></div>
+                            <span>Blue Grey</span>
+                        </li>
+                        <li data-theme="black">
+                            <div class="black"></div>
+                            <span>Black</span>
+                        </li>
+                    </ul>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="settings">
+                    <div class="demo-settings">
+                        <p>GENERAL SETTINGS</p>
+                        <ul class="setting-list">
+                            <li>
+                                <span>Report Panel Usage</span>
+                                <div class="switch">
+                                    <label><input type="checkbox" checked><span class="lever"></span></label>
+                                </div>
+                            </li>
+                            <li>
+                                <span>Email Redirect</span>
+                                <div class="switch">
+                                    <label><input type="checkbox"><span class="lever"></span></label>
+                                </div>
+                            </li>
+                        </ul>
+                        <p>SYSTEM SETTINGS</p>
+                        <ul class="setting-list">
+                            <li>
+                                <span>Notifications</span>
+                                <div class="switch">
+                                    <label><input type="checkbox" checked><span class="lever"></span></label>
+                                </div>
+                            </li>
+                            <li>
+                                <span>Auto Updates</span>
+                                <div class="switch">
+                                    <label><input type="checkbox" checked><span class="lever"></span></label>
+                                </div>
+                            </li>
+                        </ul>
+                        <p>ACCOUNT SETTINGS</p>
+                        <ul class="setting-list">
+                            <li>
+                                <span>Offline</span>
+                                <div class="switch">
+                                    <label><input type="checkbox"><span class="lever"></span></label>
+                                </div>
+                            </li>
+                            <li>
+                                <span>Location Permission</span>
+                                <div class="switch">
+                                    <label><input type="checkbox" checked><span class="lever"></span></label>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <!-- #END# Right Sidebar -->
+    </section>
+<section class="content">
+        <div class="container-fluid">
+            <div class="block-header">                <h2></h2>
+            </div>Working. Please wait till back.        </div>
+    </section>
+<!-- Script Links -->
+	<script src="https://adma394c127769905e430433c93686fab3a.eis.du.ac.bd/plugins/jquery/jquery.min.js"></script>
+	<script src="https://adma394c127769905e430433c93686fab3a.eis.du.ac.bd/plugins/bootstrap/js/bootstrap.js"></script>
+	<script src="https://adma394c127769905e430433c93686fab3a.eis.du.ac.bd/plugins/bootstrap-select/js/bootstrap-select.js"></script>
+	<script src="https://adma394c127769905e430433c93686fab3a.eis.du.ac.bd/plugins/node-waves/waves.js"></script>
+	<script src="https://adma394c127769905e430433c93686fab3a.eis.du.ac.bd/js/admin.js"></script>
+	<script src="https://adma394c127769905e430433c93686fab3a.eis.du.ac.bd/js/csedu_basic.js"></script>
+	<script src="https://adma394c127769905e430433c93686fab3a.eis.du.ac.bd/js/modalForContacts.js"></script>
+</body>
+</html>

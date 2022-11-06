@@ -1,0 +1,1 @@
+            cout<<first[index1]<<endl;

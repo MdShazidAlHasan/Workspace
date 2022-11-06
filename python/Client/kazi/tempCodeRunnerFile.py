@@ -1,0 +1,1 @@
+trainATime+trainA if trainATime<180 else trainATime 

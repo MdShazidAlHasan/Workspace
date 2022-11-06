@@ -1,0 +1,15 @@
+/home/shazid/productivity/C#/test/bin/Debug/net6.0/test
+/home/shazid/productivity/C#/test/bin/Debug/net6.0/test.deps.json
+/home/shazid/productivity/C#/test/bin/Debug/net6.0/test.runtimeconfig.json
+/home/shazid/productivity/C#/test/bin/Debug/net6.0/test.dll
+/home/shazid/productivity/C#/test/bin/Debug/net6.0/test.pdb
+/home/shazid/productivity/C#/test/obj/Debug/net6.0/test.csproj.AssemblyReference.cache
+/home/shazid/productivity/C#/test/obj/Debug/net6.0/test.GeneratedMSBuildEditorConfig.editorconfig
+/home/shazid/productivity/C#/test/obj/Debug/net6.0/test.AssemblyInfoInputs.cache
+/home/shazid/productivity/C#/test/obj/Debug/net6.0/test.AssemblyInfo.cs
+/home/shazid/productivity/C#/test/obj/Debug/net6.0/test.csproj.CoreCompileInputs.cache
+/home/shazid/productivity/C#/test/obj/Debug/net6.0/test.dll
+/home/shazid/productivity/C#/test/obj/Debug/net6.0/refint/test.dll
+/home/shazid/productivity/C#/test/obj/Debug/net6.0/test.pdb
+/home/shazid/productivity/C#/test/obj/Debug/net6.0/test.genruntimeconfig.cache
+/home/shazid/productivity/C#/test/obj/Debug/net6.0/ref/test.dll

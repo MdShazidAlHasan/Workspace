@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1661445038 source:/home/shazid/productivity/Cpp/Variable and Constant/sizeofoperator/main.cpp
+	<iostream>
+	<climits>
+

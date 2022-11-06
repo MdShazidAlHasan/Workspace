@@ -1,0 +1,25 @@
+
+Question-2:
+You will be given a dictionary where the key indicates a person who will 
+receive presents and value indicates the list of people from whom he/she 
+will receive the presents.
+For example in the dictionary {'Alex': ['Carl', 'Ethan'], 'Bob': 
+['Carl', 'David'], 'Carl': ['David', 'Alex'], 'David': ['Alex']} Alex will 
+receive gifts from Carl and Ethan, Bob will receive from Carl and David and 
+so on.
+You have to create a dictionary where the givers will be the keys and the 
+list of people receiving gifts from him/her will be the values 
+corresponding to those keys.
+======================================================
+Given dictionary 1:
+{'Alex': ['Carl', 'Ethan'], 'Bob': ['Carl', 'David'], 'Carl': 
+['David', 'Alex'], 'David': ['Alex']}
+
+Sample output 1:
+{'Carl': ['Alex', 'Bob'], 'Ethan': ['Alex'], 'David': 
+['Bob', 'Carl'], 'Alex': ['Carl', 'David']}
+
+Explanation 1:
+We can see that Carl will give gifts to Alex and Bob. So the value 
+corresponding to the key Carl will be a list containing both Alex and Bob. 
+Similarly all the other keys are handled.

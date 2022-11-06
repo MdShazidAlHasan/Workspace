@@ -1,0 +1,5 @@
+/home/shazid/productivity/C#/test1/obj/Debug/net6.0/test1.csproj.AssemblyReference.cache
+/home/shazid/productivity/C#/test1/obj/Debug/net6.0/test1.GeneratedMSBuildEditorConfig.editorconfig
+/home/shazid/productivity/C#/test1/obj/Debug/net6.0/test1.AssemblyInfoInputs.cache
+/home/shazid/productivity/C#/test1/obj/Debug/net6.0/test1.AssemblyInfo.cs
+/home/shazid/productivity/C#/test1/obj/Debug/net6.0/test1.csproj.CoreCompileInputs.cache
